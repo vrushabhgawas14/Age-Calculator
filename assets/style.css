@@ -135,3 +135,26 @@ button:hover{
         transform: translateX(0);
     }
 }
+
+
+@media screen and (max-width:600px) {
+    .calculator{
+        margin: 20% 5%;
+        width: 90%;
+    }
+
+    .input-box{
+        margin: 30px auto;
+        flex-direction: column;
+    }
+
+    .input-box input{
+        width: 90%;
+        margin: 0 ;
+        min-width: 200px;
+    }
+    
+    .input-box button{
+        margin-top: 20px;
+    }
+}
